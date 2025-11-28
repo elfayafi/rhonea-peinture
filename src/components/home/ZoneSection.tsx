@@ -12,7 +12,7 @@ export default function ZoneSection() {
       <div className="container mx-auto px-4">
         <SectionTitle
           title="Notre zone d'intervention"
-          subtitle="Nous intervenons a Lyon et dans toutes les communes du departement du Rhone (69)."
+          subtitle="Nous intervenons à Lyon et dans toutes les communes du département du Rhône (69)."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -116,9 +116,8 @@ export default function ZoneSection() {
             <div className="mt-8 p-4 bg-primary/5 rounded-lg border border-primary/10">
               <p className="font-body text-sm text-neutral-600">
                 <strong className="text-primary">Vous ne trouvez pas votre ville ?</strong>{" "}
-                Pas de probleme ! Nous intervenons dans tout le departement du
-                Rhone. Contactez-nous pour verifier que nous couvrons votre
-                secteur.
+                Pas de problème ! Nous intervenons dans tout le département du
+                Rhône. Contactez-nous pour vérifier que nous couvrons votre secteur.
               </p>
             </div>
           </motion.div>

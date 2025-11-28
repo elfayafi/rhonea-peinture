@@ -26,8 +26,8 @@ export default function ProjectsSection() {
     <section className="section-padding bg-white">
       <div className="container mx-auto px-4">
         <SectionTitle
-          title="Nos realisations"
-          subtitle="Decouvrez quelques-uns de nos projets recents et laissez-vous inspirer pour votre prochain chantier."
+          title="Nos réalisations"
+          subtitle="Découvrez quelques-uns de nos projets récents et laissez-vous inspirer pour votre prochain chantier."
         />
 
         {/* Desktop Grid */}
@@ -76,7 +76,7 @@ export default function ProjectsSection() {
                       : "bg-white/90 text-neutral-900"
                   } transition-colors duration-300`}
                 >
-                  {isHovering === project.id ? "Apres" : "Avant"}
+                  {isHovering === project.id ? "Après" : "Avant"}
                 </span>
               </div>
 
@@ -137,7 +137,7 @@ export default function ProjectsSection() {
           <button
             onClick={prevSlide}
             className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full flex items-center justify-center shadow-lg"
-            aria-label="Projet precedent"
+            aria-label="Projet précédent"
           >
             <ChevronLeft className="w-5 h-5 text-neutral-900" />
           </button>
@@ -172,7 +172,7 @@ export default function ProjectsSection() {
             href="/realisations"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-semibold px-6 py-3 rounded-lg transition-all duration-300"
           >
-            Voir toutes nos realisations
+            Voir toutes nos réalisations
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

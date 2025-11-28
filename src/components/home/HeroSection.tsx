@@ -7,8 +7,8 @@ import { COMPANY_INFO } from "@/lib/constants";
 
 const reassuranceItems = [
   "Devis sous 24h",
-  "Assurance decennale",
-  `${COMPANY_INFO.yearsExperience} ans d'experience`,
+  "Assurance décennale",
+  `${COMPANY_INFO.yearsExperience} ans d'expérience`,
   `${COMPANY_INFO.googleRating}/5 sur Google`,
 ];
 
@@ -35,9 +35,9 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
             className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-6 leading-tight"
           >
-            Peintre professionnel a{" "}
+            Peintre professionnel à{" "}
             <span className="text-secondary">Lyon</span> et dans le{" "}
-            <span className="text-secondary">Rhone</span>
+            <span className="text-secondary">Rhône</span>
           </motion.h1>
 
           <motion.p
@@ -46,8 +46,8 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-body text-xl text-white/90 mb-8 leading-relaxed"
           >
-            Transformez votre interieur et votre exterieur avec un artisan de
-            confiance. Peinture, ravalement, decoration : nous donnons vie a vos
+            Transformez votre intérieur et votre extérieur avec un artisan de
+            confiance. Peinture, ravalement, décoration : nous donnons vie à vos
             projets depuis {COMPANY_INFO.yearsExperience} ans.
           </motion.p>
 

@@ -27,7 +27,7 @@ export default function Footer() {
             </Link>
             <p className="text-neutral-400 font-body text-sm mb-6">
               {COMPANY_INFO.slogan}. Entreprise de peinture professionnelle intervenant
-              a Lyon et dans tout le departement du Rhone depuis {COMPANY_INFO.yearsExperience} ans.
+              à Lyon et dans tout le département du Rhône depuis {COMPANY_INFO.yearsExperience} ans.
             </p>
             <div className="flex gap-4">
               <a
@@ -142,7 +142,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-6 lg:gap-12">
             <div className="flex items-center gap-2 text-sm text-neutral-400">
               <Shield className="w-5 h-5 text-accent" />
-              <span>Assurance decennale {COMPANY_INFO.insurance.company}</span>
+              <span>Assurance décennale {COMPANY_INFO.insurance.company}</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-neutral-400">
               <Star className="w-5 h-5 text-yellow-500" />
@@ -159,13 +159,13 @@ export default function Footer() {
       <div className="border-t border-neutral-800">
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
-            <p>&copy; {new Date().getFullYear()} {COMPANY_INFO.name}. Tous droits reserves.</p>
+            <p>&copy; {new Date().getFullYear()} {COMPANY_INFO.name}. Tous droits réservés.</p>
             <div className="flex items-center gap-6">
               <Link href="/mentions-legales" className="hover:text-white transition-colors">
-                Mentions legales
+                Mentions légales
               </Link>
               <Link href="/politique-confidentialite" className="hover:text-white transition-colors">
-                Politique de confidentialite
+                Politique de confidentialité
               </Link>
             </div>
           </div>

@@ -9,25 +9,25 @@ const reasons = [
     icon: Clock,
     title: "Devis gratuit sous 24h",
     description:
-      "Recevez rapidement une estimation detaillee et personnalisee pour votre projet.",
+      "Recevez rapidement une estimation détaillée et personnalisée pour votre projet.",
   },
   {
     icon: Award,
-    title: "Artisan qualifie",
+    title: "Artisan qualifié",
     description:
-      "Plus de 12 ans d'experience et un savoir-faire reconnu dans la region lyonnaise.",
+      "Plus de 12 ans d'expérience et un savoir-faire reconnu dans la région lyonnaise.",
   },
   {
     icon: Shield,
-    title: "Assurance decennale",
+    title: "Assurance décennale",
     description:
-      "Travaillez en toute serenite avec notre garantie decennale AXA Assurances.",
+      "Travaillez en toute sérénité avec notre garantie décennale AXA Assurances.",
   },
   {
     icon: ThumbsUp,
     title: "Satisfaction garantie",
     description:
-      "Note de 4.9/5 sur Google. Votre satisfaction est notre priorite absolue.",
+      "Note de 4.9/5 sur Google. Votre satisfaction est notre priorité absolue.",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function WhyUsSection() {
       <div className="container mx-auto px-4">
         <SectionTitle
           title="Pourquoi nous choisir ?"
-          subtitle="Des garanties concretes pour un travail de qualite et une relation de confiance."
+          subtitle="Des garanties concrètes pour un travail de qualité et une relation de confiance."
         />
 
         <motion.div

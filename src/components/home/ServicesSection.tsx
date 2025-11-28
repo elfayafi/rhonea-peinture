@@ -49,7 +49,7 @@ export default function ServicesSection() {
       <div className="container mx-auto px-4">
         <SectionTitle
           title="Nos services de peinture"
-          subtitle="Des solutions completes pour tous vos projets de peinture et de decoration, realisees par des professionnels qualifies."
+          subtitle="Des solutions complètes pour tous vos projets de peinture et de décoration, réalisées par des professionnels qualifiés."
         />
 
         <motion.div
