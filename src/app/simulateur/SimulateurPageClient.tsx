@@ -21,34 +21,34 @@ import {
 import { COMPANY_INFO } from "@/lib/constants";
 
 const projectTypes = [
-  { id: "interieur", label: "Peinture interieure", icon: Home },
-  { id: "exterieur", label: "Peinture exterieure", icon: Building2 },
-  { id: "ravalement", label: "Ravalement facade", icon: Paintbrush },
+  { id: "interieur", label: "Peinture intérieure", icon: Home },
+  { id: "exterieur", label: "Peinture extérieure", icon: Building2 },
+  { id: "ravalement", label: "Ravalement façade", icon: Paintbrush },
   { id: "autre", label: "Autre projet", icon: HelpCircle },
 ];
 
 const roomTypes = [
   { id: "chambre", label: "Chambre" },
-  { id: "salon", label: "Salon/Sejour" },
+  { id: "salon", label: "Salon/Séjour" },
   { id: "cuisine", label: "Cuisine" },
   { id: "sdb", label: "Salle de bain" },
   { id: "wc", label: "WC" },
-  { id: "entree", label: "Entree/Couloir" },
+  { id: "entree", label: "Entrée/Couloir" },
   { id: "bureau", label: "Bureau" },
 ];
 
 const exteriorTypes = [
-  { id: "facade", label: "Facade" },
+  { id: "facade", label: "Façade" },
   { id: "volets", label: "Volets" },
   { id: "portail", label: "Portail" },
-  { id: "cloture", label: "Cloture" },
+  { id: "cloture", label: "Clôture" },
   { id: "terrasse", label: "Terrasse" },
 ];
 
 const conditions = [
-  { id: "bon", label: "Bon etat", description: "Simple rafraichissement" },
-  { id: "moyen", label: "Etat moyen", description: "Preparation necessaire" },
-  { id: "mauvais", label: "Mauvais etat", description: "Gros travaux de preparation" },
+  { id: "bon", label: "Bon état", description: "Simple rafraîchissement" },
+  { id: "moyen", label: "État moyen", description: "Préparation nécessaire" },
+  { id: "mauvais", label: "Mauvais état", description: "Gros travaux de préparation" },
 ];
 
 const finitions = [
@@ -58,10 +58,10 @@ const finitions = [
 ];
 
 const contactSchema = z.object({
-  prenom: z.string().min(2, "Prenom requis"),
+  prenom: z.string().min(2, "Prénom requis"),
   email: z.string().email("Email invalide"),
   telephone: z.string().optional(),
-  codePostal: z.string().regex(/^69\d{3}$/, "Code postal du Rhone requis (69XXX)"),
+  codePostal: z.string().regex(/^69\d{3}$/, "Code postal du Rhône requis (69XXX)"),
   rgpd: z.boolean().refine((val) => val === true, "Vous devez accepter"),
 });
 
@@ -191,8 +191,8 @@ export default function SimulateurPageClient() {
               transition={{ delay: 0.2 }}
               className="font-body text-xl text-white/90"
             >
-              Repondez a quelques questions et obtenez une estimation de prix
-              instantanee.
+              Répondez à quelques questions et obtenez une estimation de prix
+              instantanée.
             </motion.p>
           </div>
         </div>
@@ -207,10 +207,10 @@ export default function SimulateurPageClient() {
               <div className="mb-8">
                 <div className="flex justify-between text-sm font-body text-neutral-500 mb-2">
                   <span>
-                    Etape {currentStep} sur {totalSteps}
+                    Étape {currentStep} sur {totalSteps}
                   </span>
                   <span>
-                    {Math.round((currentStep / totalSteps) * 100)}% complete
+                    {Math.round((currentStep / totalSteps) * 100)}% complété
                   </span>
                 </div>
                 <div className="h-2 bg-neutral-200 rounded-full overflow-hidden">
@@ -244,8 +244,8 @@ export default function SimulateurPageClient() {
                           Quel type de projet ?
                         </h2>
                         <p className="font-body text-neutral-500 mb-6">
-                          Selectionnez le type de travaux que vous souhaitez
-                          realiser.
+                          Sélectionnez le type de travaux que vous souhaitez
+                          réaliser.
                         </p>
                         <div className="grid grid-cols-2 gap-4">
                           {projectTypes.map((type) => {
@@ -281,16 +281,16 @@ export default function SimulateurPageClient() {
                     {currentStep === 2 && (
                       <div>
                         <h2 className="font-heading font-bold text-2xl text-neutral-900 mb-2">
-                          Details du projet
+                          Détails du projet
                         </h2>
                         {projectType === "interieur" ? (
                           <>
                             <p className="font-body text-neutral-500 mb-6">
-                              Combien de pieces souhaitez-vous peindre ?
+                              Combien de pièces souhaitez-vous peindre ?
                             </p>
                             <div className="mb-6">
                               <label className="font-body text-sm text-neutral-700 mb-2 block">
-                                Nombre de pieces
+                                Nombre de pièces
                               </label>
                               <div className="flex items-center gap-4">
                                 <button
@@ -314,7 +314,7 @@ export default function SimulateurPageClient() {
                             </div>
                             <div>
                               <label className="font-body text-sm text-neutral-700 mb-2 block">
-                                Types de pieces
+                                Types de pièces
                               </label>
                               <div className="flex flex-wrap gap-2">
                                 {roomTypes.map((room) => (
@@ -336,7 +336,7 @@ export default function SimulateurPageClient() {
                         ) : projectType === "exterieur" ? (
                           <>
                             <p className="font-body text-neutral-500 mb-6">
-                              Quels elements souhaitez-vous peindre ?
+                              Quels éléments souhaitez-vous peindre ?
                             </p>
                             <div className="flex flex-wrap gap-2">
                               {exteriorTypes.map((ext) => (
@@ -356,7 +356,7 @@ export default function SimulateurPageClient() {
                           </>
                         ) : (
                           <p className="font-body text-neutral-500">
-                            Decrivez votre projet lors de la prochaine etape.
+                            Décrivez votre projet lors de la prochaine étape.
                           </p>
                         )}
                       </div>
@@ -369,7 +369,7 @@ export default function SimulateurPageClient() {
                           Quelle surface ?
                         </h2>
                         <p className="font-body text-neutral-500 mb-6">
-                          Estimez la surface totale a peindre en metres carres.
+                          Estimez la surface totale à peindre en mètres carrés.
                         </p>
                         <div className="text-center mb-6">
                           <span className="font-heading font-bold text-5xl text-primary">
@@ -400,11 +400,11 @@ export default function SimulateurPageClient() {
                     {currentStep === 4 && (
                       <div>
                         <h2 className="font-heading font-bold text-2xl text-neutral-900 mb-2">
-                          Etat actuel des surfaces
+                          État actuel des surfaces
                         </h2>
                         <p className="font-body text-neutral-500 mb-6">
-                          Cela nous aide a estimer le temps de preparation
-                          necessaire.
+                          Cela nous aide à estimer le temps de préparation
+                          nécessaire.
                         </p>
                         <div className="space-y-3">
                           {conditions.map((cond) => (
@@ -440,10 +440,10 @@ export default function SimulateurPageClient() {
                     {currentStep === 5 && (
                       <div>
                         <h2 className="font-heading font-bold text-2xl text-neutral-900 mb-2">
-                          Niveau de finition souhaite
+                          Niveau de finition souhaité
                         </h2>
                         <p className="font-body text-neutral-500 mb-6">
-                          Choisissez la qualite de finition souhaitee.
+                          Choisissez la qualité de finition souhaitée.
                         </p>
                         <div className="space-y-3">
                           {finitions.map((fin) => (
@@ -474,20 +474,20 @@ export default function SimulateurPageClient() {
                     {currentStep === 6 && (
                       <form onSubmit={handleSubmit(onSubmit)}>
                         <h2 className="font-heading font-bold text-2xl text-neutral-900 mb-2">
-                          Vos coordonnees
+                          Vos coordonnées
                         </h2>
                         <p className="font-body text-neutral-500 mb-6">
-                          Pour recevoir votre estimation et etre recontacte.
+                          Pour recevoir votre estimation et être recontacté.
                         </p>
                         <div className="space-y-4">
                           <div>
                             <label className="font-body text-sm text-neutral-700 mb-1 block">
-                              Prenom *
+                              Prénom *
                             </label>
                             <input
                               {...register("prenom")}
                               className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                              placeholder="Votre prenom"
+                              placeholder="Votre prénom"
                             />
                             {errors.prenom && (
                               <p className="text-red-500 text-sm mt-1">
@@ -513,7 +513,7 @@ export default function SimulateurPageClient() {
                           </div>
                           <div>
                             <label className="font-body text-sm text-neutral-700 mb-1 block">
-                              Telephone (optionnel)
+                              Téléphone (optionnel)
                             </label>
                             <input
                               {...register("telephone")}
@@ -544,7 +544,7 @@ export default function SimulateurPageClient() {
                               className="mt-1"
                             />
                             <label className="font-body text-sm text-neutral-600">
-                              J&apos;accepte que mes donnees soient utilisees pour
+                              J&apos;accepte que mes données soient utilisées pour
                               me recontacter concernant mon projet. *
                             </label>
                           </div>
@@ -608,12 +608,12 @@ export default function SimulateurPageClient() {
                       Votre estimation
                     </h2>
                     <p className="font-body text-neutral-500 mb-8">
-                      Basee sur les informations fournies
+                      Basée sur les informations fournies
                     </p>
 
                     <div className="bg-primary/5 rounded-2xl p-6 mb-6">
                       <p className="font-body text-sm text-neutral-500 mb-2">
-                        Fourchette de prix estimee
+                        Fourchette de prix estimée
                       </p>
                       <p className="font-heading font-bold text-4xl text-primary">
                         {calculatePrice().minPrice.toLocaleString()} -{" "}
@@ -627,13 +627,13 @@ export default function SimulateurPageClient() {
                     <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8 text-left">
                       <p className="font-body text-sm text-yellow-800">
                         <strong>Estimation indicative :</strong> Cette fourchette
-                        est calculee sur la base des informations fournies. Seul
-                        un devis realise sur place fait foi et vous engage.
+                        est calculée sur la base des informations fournies. Seul
+                        un devis réalisé sur place fait foi et vous engage.
                       </p>
                     </div>
 
                     <p className="font-body text-neutral-600 mb-6">
-                      Pour un devis precis et personnalise, nous vous
+                      Pour un devis précis et personnalisé, nous vous
                       recontactons sous 24h.
                     </p>
 
@@ -643,13 +643,13 @@ export default function SimulateurPageClient() {
                         className="inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary-dark text-white font-body font-semibold px-6 py-3 rounded-lg transition-all"
                       >
                         <Phone className="w-5 h-5" />
-                        Etre rappele
+                        Être rappelé
                       </a>
                       <Link
                         href="/realisations"
                         className="inline-flex items-center justify-center gap-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 font-body font-semibold px-6 py-3 rounded-lg transition-all"
                       >
-                        Voir nos realisations
+                        Voir nos réalisations
                       </Link>
                     </div>
                   </motion.div>

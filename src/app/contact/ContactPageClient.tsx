@@ -24,7 +24,7 @@ const contactSchema = z.object({
   email: z.string().email("Email invalide"),
   telephone: z.string().optional(),
   sujet: z.string().min(1, "Sujet requis"),
-  message: z.string().min(10, "Message requis (min 10 caracteres)"),
+  message: z.string().min(10, "Message requis (min 10 caractères)"),
 });
 
 type ContactForm = z.infer<typeof contactSchema>;
@@ -70,8 +70,8 @@ export default function ContactPageClient() {
               transition={{ delay: 0.1 }}
               className="font-body text-xl text-white/90"
             >
-              Une question ? Un projet ? N&apos;hesitez pas a nous contacter. Notre
-              equipe vous repond sous 24h.
+              Une question ? Un projet ? N&apos;hésitez pas à nous contacter. Notre
+              équipe vous répond sous 24h.
             </motion.p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function ContactPageClient() {
               viewport={{ once: true }}
             >
               <h2 className="font-heading font-bold text-2xl text-neutral-900 mb-6">
-                Nos coordonnees
+                Nos coordonnées
               </h2>
 
               <div className="space-y-6 mb-8">
@@ -101,7 +101,7 @@ export default function ContactPageClient() {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-neutral-900 mb-1">
-                      Telephone
+                      Téléphone
                     </h3>
                     <p className="font-body text-primary font-semibold text-lg">
                       {COMPANY_INFO.phone}
@@ -127,7 +127,7 @@ export default function ContactPageClient() {
                       {COMPANY_INFO.email}
                     </p>
                     <p className="font-body text-sm text-neutral-500">
-                      Reponse sous 24h
+                      Réponse sous 24h
                     </p>
                   </div>
                 </a>
@@ -241,10 +241,10 @@ export default function ContactPageClient() {
                       <CheckCircle2 className="w-8 h-8 text-accent" />
                     </div>
                     <h3 className="font-heading font-semibold text-xl text-neutral-900 mb-2">
-                      Message envoye !
+                      Message envoyé !
                     </h3>
                     <p className="font-body text-neutral-600 mb-6">
-                      Nous vous repondrons dans les plus brefs delais.
+                      Nous vous répondrons dans les plus brefs délais.
                     </p>
                     <button
                       onClick={() => setIsSuccess(false)}
@@ -290,7 +290,7 @@ export default function ContactPageClient() {
 
                     <div>
                       <label className="font-body text-sm text-neutral-700 mb-1 block">
-                        Telephone (optionnel)
+                        Téléphone (optionnel)
                       </label>
                       <input
                         {...register("telephone")}
@@ -308,11 +308,11 @@ export default function ContactPageClient() {
                         {...register("sujet")}
                         className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-white"
                       >
-                        <option value="">Selectionnez...</option>
+                        <option value="">Sélectionnez...</option>
                         <option value="devis">Demande de devis</option>
                         <option value="info">Demande d&apos;information</option>
                         <option value="rdv">Prise de rendez-vous</option>
-                        <option value="reclamation">Reclamation</option>
+                        <option value="reclamation">Réclamation</option>
                         <option value="autre">Autre</option>
                       </select>
                       {errors.sujet && (

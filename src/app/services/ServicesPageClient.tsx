@@ -31,21 +31,21 @@ const services = [
   {
     id: "peinture-interieure",
     icon: "PaintBucket",
-    title: "Peinture interieure",
+    title: "Peinture intérieure",
     description:
-      "La peinture interieure est notre coeur de metier. Nous transformons vos espaces de vie en appliquant des peintures de haute qualite, adaptees a chaque piece et a vos envies. Que ce soit pour un simple rafraichissement ou une renovation complete, notre equipe maitrise toutes les techniques pour un rendu impeccable.",
+      "La peinture intérieure est notre cœur de métier. Nous transformons vos espaces de vie en appliquant des peintures de haute qualité, adaptées à chaque pièce et à vos envies. Que ce soit pour un simple rafraîchissement ou une rénovation complète, notre équipe maîtrise toutes les techniques pour un rendu impeccable.",
     image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=800",
     features: [
       "Peinture des murs et plafonds",
       "Laquage de boiseries et portes",
       "Peinture de radiateurs",
-      "Application de peintures techniques (anti-humidite, isolante)",
-      "Finitions mates, satinees ou brillantes",
-      "Preparation des supports (rebouchage, enduit, poncage)",
+      "Application de peintures techniques (anti-humidité, isolante)",
+      "Finitions mates, satinées ou brillantes",
+      "Préparation des supports (rebouchage, enduit, ponçage)",
     ],
     benefits: [
-      "Devis detaille gratuit",
-      "Protection complete du mobilier",
+      "Devis détaillé gratuit",
+      "Protection complète du mobilier",
       "Nettoyage de fin de chantier",
       "Garantie satisfaction",
     ],
@@ -53,89 +53,89 @@ const services = [
   {
     id: "peinture-exterieure",
     icon: "Home",
-    title: "Peinture exterieure",
+    title: "Peinture extérieure",
     description:
-      "Protegez et embellissez l'exterieur de votre habitation avec nos services de peinture exterieure. Nous utilisons des peintures specifiques resistantes aux intemperies et aux UV pour une durabilite maximale. Facades, volets, portails, clotures : nous prenons en charge tous vos travaux de peinture exterieure.",
+      "Protégez et embellissez l'extérieur de votre habitation avec nos services de peinture extérieure. Nous utilisons des peintures spécifiques résistantes aux intempéries et aux UV pour une durabilité maximale. Façades, volets, portails, clôtures : nous prenons en charge tous vos travaux de peinture extérieure.",
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800",
     features: [
-      "Peinture de facades",
+      "Peinture de façades",
       "Peinture de volets bois et PVC",
-      "Peinture de portails metalliques",
-      "Peinture de clotures",
+      "Peinture de portails métalliques",
+      "Peinture de clôtures",
       "Traitement anti-mousse",
       "Application de lasure et vernis",
     ],
     benefits: [
-      "Peintures haute resistance",
+      "Peintures haute résistance",
       "Garantie 10 ans",
-      "Travail en toute securite (echafaudage)",
+      "Travail en toute sécurité (échafaudage)",
       "Respect de l'environnement",
     ],
   },
   {
     id: "ravalement-facade",
     icon: "Building2",
-    title: "Ravalement de facade",
+    title: "Ravalement de façade",
     description:
-      "Le ravalement de facade est une obligation legale tous les 10 ans dans de nombreuses communes. Au-dela de l'aspect reglementaire, c'est l'occasion de valoriser votre patrimoine et d'ameliorer l'isolation thermique de votre batiment. Notre equipe realise un diagnostic complet avant d'intervenir.",
+      "Le ravalement de façade est une obligation légale tous les 10 ans dans de nombreuses communes. Au-delà de l'aspect réglementaire, c'est l'occasion de valoriser votre patrimoine et d'améliorer l'isolation thermique de votre bâtiment. Notre équipe réalise un diagnostic complet avant d'intervenir.",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     features: [
-      "Diagnostic complet de l'etat de la facade",
+      "Diagnostic complet de l'état de la façade",
       "Nettoyage haute pression",
       "Traitement des fissures et infiltrations",
-      "Application d'enduits de renovation",
+      "Application d'enduits de rénovation",
       "Peinture de finition",
-      "Impermeabilisation",
+      "Imperméabilisation",
     ],
     benefits: [
-      "Conformite reglementaire",
-      "Amelioration de l'isolation",
+      "Conformité réglementaire",
+      "Amélioration de l'isolation",
       "Valorisation du bien immobilier",
-      "Accompagnement pour les aides financieres",
+      "Accompagnement pour les aides financières",
     ],
   },
   {
     id: "revetements-muraux",
     icon: "Wallpaper",
-    title: "Revetements muraux",
+    title: "Revêtements muraux",
     description:
-      "Envie de changer de decor ? Nos poseurs specialises mettent en oeuvre tous types de revetements muraux pour personnaliser vos interieurs. Du papier peint classique aux toiles de verre en passant par les textures plus elaborees, nous vous conseillons et realisons la pose avec precision.",
+      "Envie de changer de décor ? Nos poseurs spécialisés mettent en œuvre tous types de revêtements muraux pour personnaliser vos intérieurs. Du papier peint classique aux toiles de verre en passant par les textures plus élaborées, nous vous conseillons et réalisons la pose avec précision.",
     image: "https://images.unsplash.com/photo-1615529328331-f8917597711f?q=80&w=800",
     features: [
-      "Pose de papier peint (intisse, vinyle, traditionnel)",
+      "Pose de papier peint (intissé, vinyle, traditionnel)",
       "Application de toile de verre",
-      "Pose de revetements vinyles muraux",
-      "Crepi d'interieur decoratif",
-      "Enduits decoratifs",
-      "Depose d'anciens revetements",
+      "Pose de revêtements vinyles muraux",
+      "Crépi d'intérieur décoratif",
+      "Enduits décoratifs",
+      "Dépose d'anciens revêtements",
     ],
     benefits: [
       "Large choix de motifs et textures",
-      "Conseils personnalises",
-      "Pose soignee et durable",
+      "Conseils personnalisés",
+      "Pose soignée et durable",
       "Finitions parfaites",
     ],
   },
   {
     id: "finitions-decoratives",
     icon: "Sparkles",
-    title: "Finitions decoratives",
+    title: "Finitions décoratives",
     description:
-      "Pour les clients qui souhaitent un rendu unique et personnalise, nous proposons toute une gamme de finitions decoratives. Effets beton cire, patines, stucco, tadelakt : notre savoir-faire artisanal sublimera vos murs avec des techniques d'exception.",
+      "Pour les clients qui souhaitent un rendu unique et personnalisé, nous proposons toute une gamme de finitions décoratives. Effets béton ciré, patines, stucco, tadelakt : notre savoir-faire artisanal sublimera vos murs avec des techniques d'exception.",
     image: "https://images.unsplash.com/photo-1604014237800-1c9102c219da?q=80&w=800",
     features: [
-      "Effet beton cire",
+      "Effet béton ciré",
       "Patines et glacis",
-      "Stucco venitien",
+      "Stucco vénitien",
       "Tadelakt",
-      "Effet metallise",
+      "Effet métallisé",
       "Chaux et enduits naturels",
     ],
     benefits: [
-      "Finitions uniques et personnalisees",
+      "Finitions uniques et personnalisées",
       "Savoir-faire artisanal",
-      "Materiaux nobles et durables",
-      "Valorisation de votre interieur",
+      "Matériaux nobles et durables",
+      "Valorisation de votre intérieur",
     ],
   },
   {
@@ -143,20 +143,20 @@ const services = [
     icon: "Palette",
     title: "Conseil couleurs",
     description:
-      "Choisir les bonnes couleurs n'est pas toujours simple. Notre service de conseil couleurs vous accompagne pour creer une harmonie parfaite dans votre interieur. Nous prenons en compte la luminosite, les volumes, votre mobilier et vos gouts pour vous proposer une palette sur mesure.",
+      "Choisir les bonnes couleurs n'est pas toujours simple. Notre service de conseil couleurs vous accompagne pour créer une harmonie parfaite dans votre intérieur. Nous prenons en compte la luminosité, les volumes, votre mobilier et vos goûts pour vous proposer une palette sur mesure.",
     image: "https://images.unsplash.com/photo-1541123603104-512919d6a96c?q=80&w=800",
     features: [
-      "Etude de la luminosite naturelle",
+      "Étude de la luminosité naturelle",
       "Analyse des volumes",
       "Prise en compte du mobilier existant",
       "Proposition de palettes harmonieuses",
       "Tests de couleurs sur place",
-      "Nuanciers et echantillons",
+      "Nuanciers et échantillons",
     ],
     benefits: [
-      "Accompagnement personnalise",
-      "Evitez les erreurs couteuses",
-      "Resultat garanti",
+      "Accompagnement personnalisé",
+      "Évitez les erreurs coûteuses",
+      "Résultat garanti",
       "Service inclus avec nos travaux",
     ],
   },
@@ -166,27 +166,27 @@ const faqs = [
   {
     question: "Combien de temps durent vos travaux de peinture ?",
     answer:
-      "La duree depend de la surface et du type de travaux. En moyenne, comptez 1 a 2 jours par piece pour une peinture interieure, et 1 a 3 semaines pour un ravalement de facade. Nous etablissons un planning precis lors du devis.",
+      "La durée dépend de la surface et du type de travaux. En moyenne, comptez 1 à 2 jours par pièce pour une peinture intérieure, et 1 à 3 semaines pour un ravalement de façade. Nous établissons un planning précis lors du devis.",
   },
   {
     question: "Quelles marques de peinture utilisez-vous ?",
     answer:
-      "Nous travaillons exclusivement avec des peintures professionnelles de grandes marques francaises et europeennes : Tollens, Sikkens, Zolpan, Little Greene. Nous selectionnons les produits les plus adaptes a chaque chantier.",
+      "Nous travaillons exclusivement avec des peintures professionnelles de grandes marques françaises et européennes : Tollens, Sikkens, Zolpan, Little Greene. Nous sélectionnons les produits les plus adaptés à chaque chantier.",
   },
   {
-    question: "Faut-il vider les pieces avant vos interventions ?",
+    question: "Faut-il vider les pièces avant vos interventions ?",
     answer:
-      "Pas necessairement. Nous assurons la protection complete de votre mobilier avec des baches et films plastiques. Nous vous conseillons simplement de deplacer les objets fragiles et de valeur.",
+      "Pas nécessairement. Nous assurons la protection complète de votre mobilier avec des bâches et films plastiques. Nous vous conseillons simplement de déplacer les objets fragiles et de valeur.",
   },
   {
-    question: "Proposez-vous des peintures ecologiques ?",
+    question: "Proposez-vous des peintures écologiques ?",
     answer:
-      "Oui, nous disposons d'une gamme complete de peintures ecologiques et naturelles : peintures a faible COV, peintures biosourcees, chaux, etc. N'hesitez pas a nous en faire part lors du devis.",
+      "Oui, nous disposons d'une gamme complète de peintures écologiques et naturelles : peintures à faible COV, peintures biosourcées, chaux, etc. N'hésitez pas à nous en faire part lors du devis.",
   },
   {
     question: "Intervenez-vous le week-end ?",
     answer:
-      "Nous pouvons nous adapter a vos contraintes. Des interventions le samedi sont possibles sur demande, avec un supplement pour couvrir les frais supplementaires.",
+      "Nous pouvons nous adapter à vos contraintes. Des interventions le samedi sont possibles sur demande, avec un supplément pour couvrir les frais supplémentaires.",
   },
 ];
 
@@ -213,9 +213,9 @@ export default function ServicesPageClient() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="font-body text-xl text-white/90 leading-relaxed"
             >
-              Decouvrez l'ensemble de nos prestations de peinture et de
-              decoration. De la preparation des supports aux finitions les plus
-              elaborees, nous mettons notre savoir-faire a votre service.
+              Découvrez l'ensemble de nos prestations de peinture et de
+              décoration. De la préparation des supports aux finitions les plus
+              élaborées, nous mettons notre savoir-faire à votre service.
             </motion.p>
           </div>
         </div>
@@ -340,10 +340,10 @@ export default function ServicesPageClient() {
               className="text-center mb-12"
             >
               <h2 className="font-heading font-bold text-3xl text-neutral-900 mb-4">
-                Questions frequentes
+                Questions fréquentes
               </h2>
               <p className="font-body text-neutral-600">
-                Trouvez les reponses aux questions les plus courantes sur nos
+                Trouvez les réponses aux questions les plus courantes sur nos
                 services.
               </p>
             </motion.div>
@@ -396,8 +396,8 @@ export default function ServicesPageClient() {
             Un projet de peinture ?
           </h2>
           <p className="font-body text-white/90 mb-8 max-w-2xl mx-auto">
-            Contactez-nous pour obtenir un devis gratuit et personnalise. Notre
-            equipe vous repond sous 24h.
+            Contactez-nous pour obtenir un devis gratuit et personnalisé. Notre
+            équipe vous répond sous 24h.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

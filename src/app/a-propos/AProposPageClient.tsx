@@ -18,33 +18,33 @@ import { COMPANY_INFO } from "@/lib/constants";
 const values = [
   {
     icon: Award,
-    title: "Qualite",
+    title: "Qualité",
     description:
-      "Nous utilisons exclusivement des peintures professionnelles de haute qualite pour un resultat impeccable et durable.",
+      "Nous utilisons exclusivement des peintures professionnelles de haute qualité pour un résultat impeccable et durable.",
   },
   {
     icon: Heart,
     title: "Respect",
     description:
-      "Respect de votre domicile, de vos affaires et de votre temps. Nous travaillons avec soin et discretion.",
+      "Respect de votre domicile, de vos affaires et de votre temps. Nous travaillons avec soin et discrétion.",
   },
   {
     icon: Sparkles,
-    title: "Proprete",
+    title: "Propreté",
     description:
-      "Un chantier propre est notre signature. Protection complete et nettoyage systematique en fin de travaux.",
+      "Un chantier propre est notre signature. Protection complète et nettoyage systématique en fin de travaux.",
   },
   {
     icon: Clock,
-    title: "Delais",
+    title: "Délais",
     description:
-      "Nous nous engageons sur des delais precis et les respectons. Votre planning est notre priorite.",
+      "Nous nous engageons sur des délais précis et les respectons. Votre planning est notre priorité.",
   },
 ];
 
 const stats = [
-  { value: COMPANY_INFO.yearsExperience, label: "Annees d'experience", suffix: "+" },
-  { value: COMPANY_INFO.projectsCompleted, label: "Chantiers realises", suffix: "+" },
+  { value: COMPANY_INFO.yearsExperience, label: "Années d'expérience", suffix: "+" },
+  { value: COMPANY_INFO.projectsCompleted, label: "Chantiers réalisés", suffix: "+" },
   { value: 98, label: "Clients satisfaits", suffix: "%" },
   { value: COMPANY_INFO.googleRating, label: "Note Google", suffix: "/5" },
 ];
@@ -106,9 +106,9 @@ export default function AProposPageClient() {
                 {COMPANY_INFO.yearsExperience} ans
               </h1>
               <p className="font-body text-xl text-white/90 leading-relaxed">
-                RHONEA Peinture, c&apos;est avant tout une passion pour le metier et
+                RHONEA Peinture, c&apos;est avant tout une passion pour le métier et
                 un engagement total envers la satisfaction de nos clients.
-                Decouvrez notre histoire et nos valeurs.
+                Découvrez notre histoire et nos valeurs.
               </p>
             </motion.div>
             <motion.div
@@ -130,7 +130,7 @@ export default function AProposPageClient() {
                 <p className="font-heading font-bold text-3xl">
                   {COMPANY_INFO.yearsExperience}+
                 </p>
-                <p className="font-body text-sm">ans d&apos;experience</p>
+                <p className="font-body text-sm">ans d&apos;expérience</p>
               </div>
             </motion.div>
           </div>
@@ -151,22 +151,22 @@ export default function AProposPageClient() {
               </h2>
               <div className="space-y-4 font-body text-neutral-600 leading-relaxed">
                 <p>
-                  Fondee il y a plus de {COMPANY_INFO.yearsExperience} ans,
-                  RHONEA Peinture est nee de la passion d&apos;un artisan pour son
-                  metier. Ce qui a commence comme une petite entreprise
-                  individuelle est devenu une reference dans la region lyonnaise.
+                  Fondée il y a plus de {COMPANY_INFO.yearsExperience} ans,
+                  RHONEA Peinture est née de la passion d&apos;un artisan pour son
+                  métier. Ce qui a commencé comme une petite entreprise
+                  individuelle est devenu une référence dans la région lyonnaise.
                 </p>
                 <p>
-                  Notre fondateur, apres une formation solide aupres des
-                  Compagnons du Devoir et plusieurs annees d&apos;experience dans les
-                  plus grandes entreprises de peinture de la region, a decide de
-                  creer RHONEA Peinture avec une vision claire : proposer un
-                  service de qualite superieure tout en restant accessible.
+                  Notre fondateur, après une formation solide auprès des
+                  Compagnons du Devoir et plusieurs années d&apos;expérience dans les
+                  plus grandes entreprises de peinture de la région, a décidé de
+                  créer RHONEA Peinture avec une vision claire : proposer un
+                  service de qualité supérieure tout en restant accessible.
                 </p>
                 <p>
                   Aujourd&apos;hui, avec plus de {COMPANY_INFO.projectsCompleted}{" "}
-                  chantiers realises, nous continuons de porter les valeurs qui
-                  ont fait notre reputation : l&apos;excellence du travail, le respect
+                  chantiers réalisés, nous continuons de porter les valeurs qui
+                  ont fait notre réputation : l&apos;excellence du travail, le respect
                   du client et la transparence.
                 </p>
               </div>
@@ -218,7 +218,7 @@ export default function AProposPageClient() {
               className="font-body text-neutral-600 max-w-2xl mx-auto"
             >
               Ces valeurs guident chacune de nos interventions et font la
-              difference sur le terrain.
+              différence sur le terrain.
             </motion.p>
           </div>
 
@@ -278,10 +278,10 @@ export default function AProposPageClient() {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-2">
-                      Assurance Decennale
+                      Assurance Décennale
                     </h3>
                     <p className="font-body text-sm text-neutral-600 mb-2">
-                      Tous nos travaux sont couverts par une assurance decennale
+                      Tous nos travaux sont couverts par une assurance décennale
                       {COMPANY_INFO.insurance.company}.
                     </p>
                     <p className="font-body text-xs text-neutral-500">
@@ -303,11 +303,11 @@ export default function AProposPageClient() {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-2">
-                      Entreprise Enregistree
+                      Entreprise Enregistrée
                     </h3>
                     <p className="font-body text-sm text-neutral-600 mb-2">
-                      Entreprise officiellement enregistree au registre du
-                      commerce et des societes.
+                      Entreprise officiellement enregistrée au registre du
+                      commerce et des sociétés.
                     </p>
                     <p className="font-body text-xs text-neutral-500">
                       SIRET : {COMPANY_INFO.siret}
@@ -333,8 +333,8 @@ export default function AProposPageClient() {
                     </h3>
                     <p className="font-body text-sm text-neutral-600">
                       Plus de {COMPANY_INFO.projectsCompleted} avis clients
-                      verifies sur Google. La satisfaction de nos clients est
-                      notre meilleure publicite.
+                      vérifiés sur Google. La satisfaction de nos clients est
+                      notre meilleure publicité.
                     </p>
                   </div>
                 </div>
@@ -353,11 +353,11 @@ export default function AProposPageClient() {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-lg text-neutral-900 mb-2">
-                      Equipe Qualifiee
+                      Équipe Qualifiée
                     </h3>
                     <p className="font-body text-sm text-neutral-600">
-                      Tous nos peintres sont formes et experimentes. Nous
-                      investissons regulierement dans la formation continue.
+                      Tous nos peintres sont formés et expérimentés. Nous
+                      investissons régulièrement dans la formation continue.
                     </p>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ export default function AProposPageClient() {
             Convaincu par notre approche ?
           </h2>
           <p className="font-body text-white/90 mb-8 max-w-2xl mx-auto">
-            Discutons de votre projet et decouvrez comment nous pouvons vous
+            Discutons de votre projet et découvrez comment nous pouvons vous
             accompagner.
           </p>
           <Link

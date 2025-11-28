@@ -18,17 +18,17 @@ import { COMPANY_INFO } from "@/lib/constants";
 
 const devisSchema = z.object({
   civilite: z.enum(["M", "Mme"]),
-  nom: z.string().min(2, "Nom requis (min 2 caracteres)"),
-  prenom: z.string().min(2, "Prenom requis (min 2 caracteres)"),
+  nom: z.string().min(2, "Nom requis (min 2 caractères)"),
+  prenom: z.string().min(2, "Prénom requis (min 2 caractères)"),
   email: z.string().email("Email invalide"),
-  telephone: z.string().min(10, "Telephone requis"),
+  telephone: z.string().min(10, "Téléphone requis"),
   adresse: z.string().min(5, "Adresse requise"),
-  codePostal: z.string().regex(/^69\d{3}$/, "Code postal du Rhone requis (69XXX)"),
+  codePostal: z.string().regex(/^69\d{3}$/, "Code postal du Rhône requis (69XXX)"),
   ville: z.string().min(2, "Ville requise"),
-  typeProjet: z.string().min(1, "Selectionnez un type de projet"),
+  typeProjet: z.string().min(1, "Sélectionnez un type de projet"),
   surface: z.string().min(1, "Surface requise"),
-  description: z.string().min(20, "Description requise (min 20 caracteres)"),
-  delai: z.string().min(1, "Selectionnez un delai"),
+  description: z.string().min(20, "Description requise (min 20 caractères)"),
+  delai: z.string().min(1, "Sélectionnez un délai"),
   source: z.string().optional(),
   rgpd: z.boolean().refine((val) => val === true, "Vous devez accepter"),
 });
@@ -36,11 +36,11 @@ const devisSchema = z.object({
 type DevisForm = z.infer<typeof devisSchema>;
 
 const projectTypes = [
-  "Peinture interieure",
-  "Peinture exterieure",
-  "Ravalement de facade",
-  "Revetements muraux",
-  "Finitions decoratives",
+  "Peinture intérieure",
+  "Peinture extérieure",
+  "Ravalement de façade",
+  "Revêtements muraux",
+  "Finitions décoratives",
   "Autre",
 ];
 
@@ -53,10 +53,10 @@ const delais = [
 
 const sources = [
   "Recherche Google",
-  "Recommendation",
-  "Reseaux sociaux",
+  "Recommandation",
+  "Réseaux sociaux",
   "Pages Jaunes",
-  "Deja client",
+  "Déjà client",
   "Autre",
 ];
 
@@ -122,15 +122,15 @@ export default function DevisPageClient() {
               <CheckCircle2 className="w-10 h-10 text-accent" />
             </div>
             <h1 className="font-heading font-bold text-3xl text-neutral-900 mb-4">
-              Demande envoyee !
+              Demande envoyée !
             </h1>
             <p className="font-body text-neutral-600 mb-8">
-              Merci pour votre demande de devis. Notre equipe vous recontactera
+              Merci pour votre demande de devis. Notre équipe vous recontactera
               sous 24h pour discuter de votre projet.
             </p>
             <div className="bg-primary/5 rounded-lg p-4 mb-6">
               <p className="font-body text-sm text-primary">
-                Un email de confirmation vous a ete envoye.
+                Un email de confirmation vous a été envoyé.
               </p>
             </div>
             <button
@@ -165,7 +165,7 @@ export default function DevisPageClient() {
               className="font-body text-xl text-white/90 mb-8"
             >
               Remplissez le formulaire ci-dessous et recevez votre devis
-              personnalise sous 24h. C&apos;est gratuit et sans engagement.
+              personnalisé sous 24h. C&apos;est gratuit et sans engagement.
             </motion.p>
 
             {/* Guarantees */}
@@ -177,11 +177,11 @@ export default function DevisPageClient() {
             >
               <div className="flex items-center gap-2 text-white/90">
                 <FileText className="w-5 h-5" />
-                <span className="font-body text-sm">Devis detaille</span>
+                <span className="font-body text-sm">Devis détaillé</span>
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <Clock className="w-5 h-5" />
-                <span className="font-body text-sm">Reponse sous 24h</span>
+                <span className="font-body text-sm">Réponse sous 24h</span>
               </div>
               <div className="flex items-center gap-2 text-white/90">
                 <Shield className="w-5 h-5" />
@@ -203,14 +203,14 @@ export default function DevisPageClient() {
               {/* Personal Info */}
               <div className="mb-8">
                 <h2 className="font-heading font-semibold text-xl text-neutral-900 mb-6 pb-2 border-b border-neutral-200">
-                  Vos coordonnees
+                  Vos coordonnées
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* Civilite */}
                   <div className="md:col-span-2">
                     <label className="font-body text-sm text-neutral-700 mb-2 block">
-                      Civilite *
+                      Civilité *
                     </label>
                     <div className="flex gap-4">
                       <label className="flex items-center gap-2 cursor-pointer">
@@ -263,12 +263,12 @@ export default function DevisPageClient() {
                   {/* Prenom */}
                   <div>
                     <label className="font-body text-sm text-neutral-700 mb-1 block">
-                      Prenom *
+                      Prénom *
                     </label>
                     <input
                       {...register("prenom")}
                       className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                      placeholder="Votre prenom"
+                      placeholder="Votre prénom"
                     />
                     {errors.prenom && (
                       <p className="text-red-500 text-sm mt-1">
@@ -298,7 +298,7 @@ export default function DevisPageClient() {
                   {/* Telephone */}
                   <div>
                     <label className="font-body text-sm text-neutral-700 mb-1 block">
-                      Telephone *
+                      Téléphone *
                     </label>
                     <input
                       {...register("telephone")}
@@ -330,7 +330,7 @@ export default function DevisPageClient() {
                     <input
                       {...register("adresse")}
                       className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                      placeholder="Numero et nom de rue"
+                      placeholder="Numéro et nom de rue"
                     />
                     {errors.adresse && (
                       <p className="text-red-500 text-sm mt-1">
@@ -391,7 +391,7 @@ export default function DevisPageClient() {
                       {...register("typeProjet")}
                       className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-white"
                     >
-                      <option value="">Selectionnez...</option>
+                      <option value="">Sélectionnez...</option>
                       {projectTypes.map((type) => (
                         <option key={type} value={type}>
                           {type}
@@ -408,7 +408,7 @@ export default function DevisPageClient() {
                   {/* Surface */}
                   <div>
                     <label className="font-body text-sm text-neutral-700 mb-1 block">
-                      Surface estimee (m2) *
+                      Surface estimée (m²) *
                     </label>
                     <input
                       {...register("surface")}
@@ -432,7 +432,7 @@ export default function DevisPageClient() {
                       {...register("description")}
                       rows={5}
                       className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"
-                      placeholder="Decrivez votre projet : nombre de pieces, etat actuel des murs, couleurs souhaitees, contraintes particulieres..."
+                      placeholder="Décrivez votre projet : nombre de pièces, état actuel des murs, couleurs souhaitées, contraintes particulières..."
                     />
                     {errors.description && (
                       <p className="text-red-500 text-sm mt-1">
@@ -496,13 +496,13 @@ export default function DevisPageClient() {
                   {/* Delai */}
                   <div>
                     <label className="font-body text-sm text-neutral-700 mb-1 block">
-                      Delai souhaite *
+                      Délai souhaité *
                     </label>
                     <select
                       {...register("delai")}
                       className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-white"
                     >
-                      <option value="">Selectionnez...</option>
+                      <option value="">Sélectionnez...</option>
                       {delais.map((delai) => (
                         <option key={delai.value} value={delai.value}>
                           {delai.label}
@@ -525,7 +525,7 @@ export default function DevisPageClient() {
                       {...register("source")}
                       className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-white"
                     >
-                      <option value="">Selectionnez...</option>
+                      <option value="">Sélectionnez...</option>
                       {sources.map((source) => (
                         <option key={source} value={source}>
                           {source}
@@ -545,14 +545,14 @@ export default function DevisPageClient() {
                     className="mt-1 accent-primary"
                   />
                   <label className="font-body text-sm text-neutral-600">
-                    J&apos;accepte que mes donnees soient utilisees par RHONEA
+                    J&apos;accepte que mes données soient utilisées par RHONEA
                     Peinture pour me recontacter concernant ma demande de devis.
                     Consultez notre{" "}
                     <a
                       href="/politique-confidentialite"
                       className="text-primary hover:underline"
                     >
-                      politique de confidentialite
+                      politique de confidentialité
                     </a>
                     . *
                   </label>
@@ -581,7 +581,7 @@ export default function DevisPageClient() {
               </button>
 
               <p className="text-center font-body text-sm text-neutral-500 mt-4">
-                Devis gratuit et sans engagement - Reponse sous 24h
+                Devis gratuit et sans engagement - Réponse sous 24h
               </p>
             </form>
           </div>

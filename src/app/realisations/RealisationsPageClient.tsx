@@ -8,9 +8,9 @@ import { PROJECTS } from "@/lib/constants";
 
 const filters = [
   { id: "all", label: "Tous" },
-  { id: "Interieur", label: "Interieur" },
-  { id: "Exterieur", label: "Exterieur" },
-  { id: "Facade", label: "Facade" },
+  { id: "Interieur", label: "Intérieur" },
+  { id: "Exterieur", label: "Extérieur" },
+  { id: "Facade", label: "Façade" },
   { id: "Professionnel", label: "Professionnel" },
 ];
 
@@ -90,7 +90,7 @@ export default function RealisationsPageClient() {
               transition={{ duration: 0.5 }}
               className="font-heading font-bold text-4xl md:text-5xl text-white mb-6"
             >
-              Nos realisations
+              Nos réalisations
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -98,9 +98,9 @@ export default function RealisationsPageClient() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="font-body text-xl text-white/90 leading-relaxed"
             >
-              Decouvrez nos projets avant/apres et laissez-vous inspirer pour
-              votre propre renovation. Plus de 480 chantiers realises a Lyon et
-              dans le Rhone.
+              Découvrez nos projets avant/après et laissez-vous inspirer pour
+              votre propre rénovation. Plus de 480 chantiers réalisés à Lyon et
+              dans le Rhône.
             </motion.p>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function RealisationsPageClient() {
                     {/* Hover Overlay */}
                     <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                       <span className="text-white font-body text-sm">
-                        Cliquez pour voir le avant/apres
+                        Cliquez pour voir le avant/après
                       </span>
                     </div>
                   </div>
@@ -197,7 +197,7 @@ export default function RealisationsPageClient() {
           {filteredProjects.length === 0 && (
             <div className="text-center py-12">
               <p className="font-body text-neutral-500">
-                Aucun projet trouve pour ce filtre.
+                Aucun projet trouvé pour ce filtre.
               </p>
             </div>
           )}
@@ -277,7 +277,7 @@ export default function RealisationsPageClient() {
                         : "text-neutral-700 hover:bg-neutral-100"
                     }`}
                   >
-                    Apres
+                    Après
                   </button>
                 </div>
               </div>
@@ -313,7 +313,7 @@ export default function RealisationsPageClient() {
                   </div>
                   <div className="bg-neutral-100 rounded-lg p-4 text-center">
                     <Clock className="w-5 h-5 text-primary mx-auto mb-2" />
-                    <p className="font-body text-sm text-neutral-500">Duree</p>
+                    <p className="font-body text-sm text-neutral-500">Durée</p>
                     <p className="font-heading font-semibold text-neutral-900">
                       {selectedProject.duration}
                     </p>
@@ -345,7 +345,7 @@ export default function RealisationsPageClient() {
             Vous avez un projet de peinture ?
           </h2>
           <p className="font-body text-neutral-600 mb-8 max-w-2xl mx-auto">
-            Inspirez-vous de nos realisations et confiez-nous votre projet. Devis
+            Inspirez-vous de nos réalisations et confiez-nous votre projet. Devis
             gratuit sous 24h.
           </p>
           <Link
