@@ -35,7 +35,7 @@ export default function TestimonialsSection() {
       <div className="container mx-auto px-4">
         <SectionTitle
           title="Ce que disent nos clients"
-          subtitle="La satisfaction de nos clients est notre meilleure publicite. Decouvrez leurs temoignages."
+          subtitle="La satisfaction de nos clients est notre meilleure publicité. Découvrez leurs témoignages."
         />
 
         <div className="max-w-4xl mx-auto relative">
@@ -97,7 +97,7 @@ export default function TestimonialsSection() {
             <button
               onClick={prevSlide}
               className="w-12 h-12 bg-white hover:bg-primary hover:text-white rounded-full flex items-center justify-center shadow-md transition-colors duration-300"
-              aria-label="Temoignage precedent"
+              aria-label="Témoignage précédent"
             >
               <ChevronLeft className="w-5 h-5" />
             </button>
@@ -114,7 +114,7 @@ export default function TestimonialsSection() {
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
                     index === currentIndex ? "bg-primary w-6" : "bg-neutral-300"
                   }`}
-                  aria-label={`Aller au temoignage ${index + 1}`}
+                  aria-label={`Aller au témoignage ${index + 1}`}
                 />
               ))}
             </div>
@@ -122,7 +122,7 @@ export default function TestimonialsSection() {
             <button
               onClick={nextSlide}
               className="w-12 h-12 bg-white hover:bg-primary hover:text-white rounded-full flex items-center justify-center shadow-md transition-colors duration-300"
-              aria-label="Temoignage suivant"
+              aria-label="Témoignage suivant"
             >
               <ChevronRight className="w-5 h-5" />
             </button>

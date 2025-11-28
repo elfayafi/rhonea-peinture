@@ -12,263 +12,263 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "combien-coute-peintre-lyon-2025",
-    title: "Combien coute un peintre a Lyon en 2025 ?",
+    title: "Combien coûte un peintre à Lyon en 2025 ?",
     excerpt:
-      "Decouvrez les tarifs moyens des peintres professionnels a Lyon et dans le Rhone. Prix au m2, facteurs de variation et conseils pour votre budget.",
+      "Découvrez les tarifs moyens des peintres professionnels à Lyon et dans le Rhône. Prix au m², facteurs de variation et conseils pour votre budget.",
     image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=800",
     category: "Prix et Budget",
     date: "2025-01-15",
     readTime: "5 min",
     content: `
-## Les tarifs moyens d'un peintre a Lyon en 2025
+## Les tarifs moyens d'un peintre à Lyon en 2025
 
-Faire appel a un peintre professionnel a Lyon represente un investissement qui varie selon plusieurs criteres. Voici un guide complet pour vous aider a estimer votre budget.
+Faire appel à un peintre professionnel à Lyon représente un investissement qui varie selon plusieurs critères. Voici un guide complet pour vous aider à estimer votre budget.
 
-### Prix au metre carre
+### Prix au mètre carré
 
-En 2025, les tarifs moyens constates a Lyon sont les suivants :
+En 2025, les tarifs moyens constatés à Lyon sont les suivants :
 
-- **Peinture interieure simple** : 20 a 35 EUR/m2
-- **Peinture interieure avec preparation** : 30 a 45 EUR/m2
-- **Peinture exterieure** : 25 a 50 EUR/m2
-- **Ravalement de facade** : 40 a 80 EUR/m2
+- **Peinture intérieure simple** : 20 à 35 €/m²
+- **Peinture intérieure avec préparation** : 30 à 45 €/m²
+- **Peinture extérieure** : 25 à 50 €/m²
+- **Ravalement de façade** : 40 à 80 €/m²
 
-Ces prix incluent generalement la main d'oeuvre et les fournitures (peinture, enduit, protection).
+Ces prix incluent généralement la main d'œuvre et les fournitures (peinture, enduit, protection).
 
-### Facteurs influencant le prix
+### Facteurs influençant le prix
 
-Plusieurs elements font varier le cout final de vos travaux :
+Plusieurs éléments font varier le coût final de vos travaux :
 
-1. **L'etat des supports** : Des murs en mauvais etat necessitent plus de preparation (rebouchage, enduit, poncage).
+1. **L'état des supports** : Des murs en mauvais état nécessitent plus de préparation (rebouchage, enduit, ponçage).
 
-2. **La surface a peindre** : Plus la surface est grande, plus le prix au m2 diminue.
+2. **La surface à peindre** : Plus la surface est grande, plus le prix au m² diminue.
 
-3. **La qualite de la peinture** : Une peinture haut de gamme coute plus cher mais offre une meilleure tenue.
+3. **La qualité de la peinture** : Une peinture haut de gamme coûte plus cher mais offre une meilleure tenue.
 
-4. **L'accessibilite** : Les hauteurs sous plafond importantes ou les escaliers compliquent le travail.
+4. **L'accessibilité** : Les hauteurs sous plafond importantes ou les escaliers compliquent le travail.
 
-5. **Les finitions souhaitees** : Effets decoratifs, patines ou techniques speciales augmentent le tarif.
+5. **Les finitions souhaitées** : Effets décoratifs, patines ou techniques spéciales augmentent le tarif.
 
-### Comment obtenir le meilleur rapport qualite-prix ?
+### Comment obtenir le meilleur rapport qualité-prix ?
 
 - **Demandez plusieurs devis** pour comparer les prestations
-- **Verifiez les references** et les realisations precedentes
-- **Assurez-vous des garanties** (assurance decennale)
-- **Privilegiez la qualite** : un travail mal fait coutera plus cher a refaire
+- **Vérifiez les références** et les réalisations précédentes
+- **Assurez-vous des garanties** (assurance décennale)
+- **Privilégiez la qualité** : un travail mal fait coûtera plus cher à refaire
 
 ### Notre conseil
 
-Chez RHONEA Peinture, nous proposons des devis gratuits et detailles. Chaque projet est unique et merite une estimation personnalisee. N'hesitez pas a nous contacter pour obtenir une estimation precise adaptee a votre projet.
+Chez RHONEA Peinture, nous proposons des devis gratuits et détaillés. Chaque projet est unique et mérite une estimation personnalisée. N'hésitez pas à nous contacter pour obtenir une estimation précise adaptée à votre projet.
     `,
   },
   {
     slug: "choisir-couleurs-peinture-interieure",
-    title: "Comment choisir les couleurs de sa peinture interieure ?",
+    title: "Comment choisir les couleurs de sa peinture intérieure ?",
     excerpt:
-      "Guide complet pour bien choisir vos couleurs de peinture. Conseils de coloriste, erreurs a eviter et tendances 2025.",
+      "Guide complet pour bien choisir vos couleurs de peinture. Conseils de coloriste, erreurs à éviter et tendances 2025.",
     image: "https://images.unsplash.com/photo-1541123603104-512919d6a96c?q=80&w=800",
-    category: "Conseils Deco",
+    category: "Conseils Déco",
     date: "2025-01-10",
     readTime: "6 min",
     content: `
-## Comment choisir les couleurs de sa peinture interieure ?
+## Comment choisir les couleurs de sa peinture intérieure ?
 
-Le choix des couleurs est une etape cruciale dans tout projet de renovation. Une mauvaise decision peut etre couteuse et difficile a corriger. Voici nos conseils pour faire les bons choix.
+Le choix des couleurs est une étape cruciale dans tout projet de rénovation. Une mauvaise décision peut être coûteuse et difficile à corriger. Voici nos conseils pour faire les bons choix.
 
-### Comprendre la luminosite de vos pieces
+### Comprendre la luminosité de vos pièces
 
-La lumiere naturelle influence considerablement la perception des couleurs :
+La lumière naturelle influence considérablement la perception des couleurs :
 
-- **Pieces orientees nord** : Privilegiez les tons chauds (jaune, orange, rouge doux) pour compenser la lumiere froide.
-- **Pieces orientees sud** : Vous pouvez oser les couleurs froides (bleu, vert) qui seront adoucies par la lumiere chaude.
-- **Pieces sombres** : Optez pour des teintes claires et lumineuses.
+- **Pièces orientées nord** : Privilégiez les tons chauds (jaune, orange, rouge doux) pour compenser la lumière froide.
+- **Pièces orientées sud** : Vous pouvez oser les couleurs froides (bleu, vert) qui seront adoucies par la lumière chaude.
+- **Pièces sombres** : Optez pour des teintes claires et lumineuses.
 
-### Les regles de base de l'harmonie coloree
+### Les règles de base de l'harmonie colorée
 
-1. **La regle des 3 couleurs** : Limitez-vous a trois couleurs maximum par piece pour un rendu equilibre.
+1. **La règle des 3 couleurs** : Limitez-vous à trois couleurs maximum par pièce pour un rendu équilibré.
 
-2. **La regle 60-30-10** :
+2. **La règle 60-30-10** :
    - 60% de couleur dominante (murs principaux)
    - 30% de couleur secondaire (meubles, rideaux)
-   - 10% de couleur d'accent (accessoires, decoration)
+   - 10% de couleur d'accent (accessoires, décoration)
 
-3. **Le cercle chromatique** : Utilisez des couleurs complementaires ou analogues pour creer une harmonie.
+3. **Le cercle chromatique** : Utilisez des couleurs complémentaires ou analogues pour créer une harmonie.
 
-### Les couleurs selon les pieces
+### Les couleurs selon les pièces
 
-- **Salon** : Tons neutres et chaleureux, possibilite d'un mur d'accent
+- **Salon** : Tons neutres et chaleureux, possibilité d'un mur d'accent
 - **Chambre** : Couleurs apaisantes (bleu, vert, gris doux)
-- **Cuisine** : Couleurs dynamisantes tout en restant appetissantes
+- **Cuisine** : Couleurs dynamisantes tout en restant appétissantes
 - **Salle de bain** : Tons frais et lumineux
 
 ### Les tendances 2025
 
-Cette annee, on observe un retour vers :
+Cette année, on observe un retour vers :
 - Les verts naturels (sauge, olive)
 - Les terres cuites et terracotta
 - Les bleus profonds
 - Les neutres chauds (greige, beige rosé)
 
-### Les erreurs a eviter
+### Les erreurs à éviter
 
-- Ne pas tester la couleur en conditions reelles
-- Choisir sur ecran sans echantillon physique
-- Negliger l'impact du mobilier existant
-- Suivre aveuglément les tendances sans tenir compte de ses gouts
+- Ne pas tester la couleur en conditions réelles
+- Choisir sur écran sans échantillon physique
+- Négliger l'impact du mobilier existant
+- Suivre aveuglément les tendances sans tenir compte de ses goûts
 
 ### Notre accompagnement
 
-Chez RHONEA Peinture, nous proposons un service de conseil couleurs inclus avec nos prestations. Nous vous aidons a faire les bons choix en tenant compte de votre interieur, de la lumiere et de vos preferences.
+Chez RHONEA Peinture, nous proposons un service de conseil couleurs inclus avec nos prestations. Nous vous aidons à faire les bons choix en tenant compte de votre intérieur, de la lumière et de vos préférences.
     `,
   },
   {
     slug: "quand-refaire-ravalement-facade",
-    title: "Quand faut-il refaire le ravalement de sa facade ?",
+    title: "Quand faut-il refaire le ravalement de sa façade ?",
     excerpt:
-      "Signes d'usure, obligations legales et meilleure periode pour ravaler sa facade. Tout ce qu'il faut savoir.",
+      "Signes d'usure, obligations légales et meilleure période pour ravaler sa façade. Tout ce qu'il faut savoir.",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800",
     category: "Ravalement",
     date: "2025-01-05",
     readTime: "5 min",
     content: `
-## Quand faut-il refaire le ravalement de sa facade ?
+## Quand faut-il refaire le ravalement de sa façade ?
 
-Le ravalement de facade est a la fois une obligation legale et une necessite technique. Voici comment savoir quand il est temps d'intervenir.
+Le ravalement de façade est à la fois une obligation légale et une nécessité technique. Voici comment savoir quand il est temps d'intervenir.
 
-### L'obligation legale
+### L'obligation légale
 
-Dans de nombreuses communes, dont Lyon et la metropole, le ravalement de facade est obligatoire tous les 10 ans. Cette obligation vise a maintenir l'esthetique urbaine et la securite des batiments.
+Dans de nombreuses communes, dont Lyon et la métropole, le ravalement de façade est obligatoire tous les 10 ans. Cette obligation vise à maintenir l'esthétique urbaine et la sécurité des bâtiments.
 
 En cas de non-respect, la mairie peut :
 - Vous mettre en demeure d'effectuer les travaux
-- Faire realiser les travaux d'office a vos frais
+- Faire réaliser les travaux d'office à vos frais
 - Appliquer des amendes
 
 ### Les signes qui ne trompent pas
 
-Independamment de l'obligation legale, certains signes indiquent qu'un ravalement est necessaire :
+Indépendamment de l'obligation légale, certains signes indiquent qu'un ravalement est nécessaire :
 
-1. **Fissures apparentes** : Elles peuvent indiquer des problemes structurels ou simplement de l'usure normale.
+1. **Fissures apparentes** : Elles peuvent indiquer des problèmes structurels ou simplement de l'usure normale.
 
-2. **Decollement de l'enduit** : L'enduit qui se detache expose le mur aux infiltrations.
+2. **Décollement de l'enduit** : L'enduit qui se détache expose le mur aux infiltrations.
 
-3. **Mousses et algues** : Leur presence signale une humidite excessive et une porosite du revetement.
+3. **Mousses et algues** : Leur présence signale une humidité excessive et une porosité du revêtement.
 
-4. **Taches et salissures** : La pollution et les intemperies degradent l'aspect visuel.
+4. **Taches et salissures** : La pollution et les intempéries dégradent l'aspect visuel.
 
-5. **Infiltrations d'eau** : Des traces d'humidite a l'interieur peuvent provenir d'une facade defaillante.
+5. **Infiltrations d'eau** : Des traces d'humidité à l'intérieur peuvent provenir d'une façade défaillante.
 
-### La meilleure periode pour ravaler
+### La meilleure période pour ravaler
 
-Le ravalement s'effectue idealement :
-- **Au printemps** (avril-juin) : Temperatures douces et temps sec
-- **En automne** (septembre-octobre) : Avant les intemperies hivernales
+Le ravalement s'effectue idéalement :
+- **Au printemps** (avril-juin) : Températures douces et temps sec
+- **En automne** (septembre-octobre) : Avant les intempéries hivernales
 
-Evitez :
-- L'ete caniculaire (sechage trop rapide)
-- L'hiver (gel et humidite)
-- Les periodes de pluie
+Évitez :
+- L'été caniculaire (séchage trop rapide)
+- L'hiver (gel et humidité)
+- Les périodes de pluie
 
 ### Les avantages d'un ravalement
 
-- **Valorisation du bien** : Une facade renovee augmente la valeur de votre propriete
-- **Economies d'energie** : Possibilite d'ajouter une isolation thermique (ITE)
-- **Protection durable** : Prevention des infiltrations et degradations
-- **Esthetique amelioree** : Modernisation de l'apparence du batiment
+- **Valorisation du bien** : Une façade rénovée augmente la valeur de votre propriété
+- **Économies d'énergie** : Possibilité d'ajouter une isolation thermique (ITE)
+- **Protection durable** : Prévention des infiltrations et dégradations
+- **Esthétique améliorée** : Modernisation de l'apparence du bâtiment
 
-### Les aides financieres
+### Les aides financières
 
 Plusieurs aides existent pour financer votre ravalement :
-- MaPrimeRenov' (si ITE associee)
-- Eco-PTZ
-- Aides locales de la Metropole de Lyon
-- TVA reduite a 10%
+- MaPrimeRénov' (si ITE associée)
+- Éco-PTZ
+- Aides locales de la Métropole de Lyon
+- TVA réduite à 10%
 
 ### Notre expertise
 
-RHONEA Peinture realise le diagnostic complet de votre facade et vous conseille sur les travaux necessaires. Nous vous accompagnons egalement dans les demarches administratives et la recherche d'aides financieres.
+RHONEA Peinture réalise le diagnostic complet de votre façade et vous conseille sur les travaux nécessaires. Nous vous accompagnons également dans les démarches administratives et la recherche d'aides financières.
     `,
   },
   {
     slug: "peinture-mate-satinee-comment-choisir",
-    title: "Peinture mate ou satinee : comment choisir ?",
+    title: "Peinture mate ou satinée : comment choisir ?",
     excerpt:
-      "Avantages et inconvenients de chaque finition. Guide pratique pour choisir la bonne peinture selon vos pieces.",
+      "Avantages et inconvénients de chaque finition. Guide pratique pour choisir la bonne peinture selon vos pièces.",
     image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800",
     category: "Conseils Techniques",
     date: "2024-12-28",
     readTime: "4 min",
     content: `
-## Peinture mate ou satinee : comment choisir ?
+## Peinture mate ou satinée : comment choisir ?
 
-Le choix de la finition est aussi important que celui de la couleur. Mate, satinee ou brillante, chaque finition a ses avantages et ses usages specifiques.
+Le choix de la finition est aussi important que celui de la couleur. Mate, satinée ou brillante, chaque finition a ses avantages et ses usages spécifiques.
 
-### Les differentes finitions
+### Les différentes finitions
 
 1. **Peinture mate** (0-10% de brillance)
-   - Aspect veloute et elegant
+   - Aspect velouté et élégant
    - Masque les imperfections du support
-   - Absorbe la lumiere, rend l'ambiance plus feutree
+   - Absorbe la lumière, rend l'ambiance plus feutrée
 
-2. **Peinture satinee** (10-30% de brillance)
-   - Aspect legerement brillant
-   - Plus resistante et lessivable
-   - Reflechit moderement la lumiere
+2. **Peinture satinée** (10-30% de brillance)
+   - Aspect légèrement brillant
+   - Plus résistante et lessivable
+   - Réfléchit modérément la lumière
 
 3. **Peinture brillante** (>70% de brillance)
    - Aspect miroir
-   - Tres resistante et lessivable
-   - Revele les defauts du support
+   - Très résistante et lessivable
+   - Révèle les défauts du support
 
-### Quelle finition pour quelle piece ?
+### Quelle finition pour quelle pièce ?
 
-**Salon / Sejour** : Mate ou satinee
-- La mate apporte elegance et chaleur
-- La satinee est plus pratique avec des enfants
+**Salon / Séjour** : Mate ou satinée
+- La mate apporte élégance et chaleur
+- La satinée est plus pratique avec des enfants
 
-**Chambre** : Mate privilegiee
+**Chambre** : Mate privilégiée
 - Ambiance apaisante et reposante
-- Pas de reflets genants la nuit
+- Pas de reflets gênants la nuit
 
-**Cuisine** : Satinee recommandee
-- Resistance aux projections
-- Facilite d'entretien
+**Cuisine** : Satinée recommandée
+- Résistance aux projections
+- Facilité d'entretien
 
-**Salle de bain** : Satinee ou brillante
-- Resistance a l'humidite
+**Salle de bain** : Satinée ou brillante
+- Résistance à l'humidité
 - Nettoyage facile
 
-**Couloir / Entree** : Satinee conseillee
-- Zones de passage frequentes
-- Facilite d'entretien des traces
+**Couloir / Entrée** : Satinée conseillée
+- Zones de passage fréquentes
+- Facilité d'entretien des traces
 
 **Plafond** : Mate exclusivement
 - Masque les imperfections
-- Evite les reflets desagreables
+- Évite les reflets désagréables
 
-### Les criteres de choix
+### Les critères de choix
 
-1. **L'etat du support** : Un mur parfait tolere toutes les finitions. Un mur avec defauts preferera la mate.
+1. **L'état du support** : Un mur parfait tolère toutes les finitions. Un mur avec défauts préférera la mate.
 
-2. **L'usage de la piece** : Plus une piece est sollicitee, plus la finition doit etre resistante.
+2. **L'usage de la pièce** : Plus une pièce est sollicitée, plus la finition doit être résistante.
 
-3. **La luminosite** : Les finitions brillantes amplifient la lumiere dans les pieces sombres.
+3. **La luminosité** : Les finitions brillantes amplifient la lumière dans les pièces sombres.
 
-4. **Le style souhaite** : La mate est plus contemporaine, la satinee plus classique.
+4. **Le style souhaité** : La mate est plus contemporaine, la satinée plus classique.
 
-### Les erreurs a eviter
+### Les erreurs à éviter
 
 - Mate dans une cuisine sans hotte efficace
-- Brillante sur un mur abime
-- Finitions differentes sur le meme mur
+- Brillante sur un mur abîmé
+- Finitions différentes sur le même mur
 
 ### Notre recommandation
 
-Pour la plupart des interieurs residentiels, nous recommandons :
-- **Mate velours** pour les pieces de vie et chambres
-- **Satinee** pour les pieces humides et de passage
+Pour la plupart des intérieurs résidentiels, nous recommandons :
+- **Mate velours** pour les pièces de vie et chambres
+- **Satinée** pour les pièces humides et de passage
 
-Chez RHONEA Peinture, nous vous conseillons sur le choix de la finition adaptee a chaque piece et utilisons des peintures professionnelles de haute qualite pour un resultat optimal et durable.
+Chez RHONEA Peinture, nous vous conseillons sur le choix de la finition adaptée à chaque pièce et utilisons des peintures professionnelles de haute qualité pour un résultat optimal et durable.
     `,
   },
 ];

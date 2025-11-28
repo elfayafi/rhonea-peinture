@@ -18,18 +18,18 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://rhonea-peinture.fr"),
   title: {
-    default: "RHONEA Peinture | Peintre professionnel a Lyon et dans le Rhone",
+    default: "RHONEA Peinture | Peintre professionnel à Lyon et dans le Rhône",
     template: "%s | RHONEA Peinture",
   },
   description:
-    "Entreprise de peinture professionnelle a Lyon et dans le Rhone. Peinture interieure, exterieure, ravalement de facade. Devis gratuit sous 24h. 12 ans d'experience.",
+    "Entreprise de peinture professionnelle à Lyon et dans le Rhône. Peinture intérieure, extérieure, ravalement de façade. Devis gratuit sous 24h. 12 ans d'expérience.",
   keywords: [
     "peintre Lyon",
     "peinture Lyon",
-    "peintre Rhone",
-    "ravalement facade Lyon",
-    "peinture interieure Lyon",
-    "peinture exterieure Lyon",
+    "peintre Rhône",
+    "ravalement façade Lyon",
+    "peinture intérieure Lyon",
+    "peinture extérieure Lyon",
     "artisan peintre Lyon",
     "entreprise peinture Lyon",
   ],
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     url: "https://rhonea-peinture.fr",
     siteName: "RHONEA Peinture",
-    title: "RHONEA Peinture | Peintre professionnel a Lyon et dans le Rhone",
+    title: "RHONEA Peinture | Peintre professionnel à Lyon et dans le Rhône",
     description:
-      "Entreprise de peinture professionnelle a Lyon et dans le Rhone. Peinture interieure, exterieure, ravalement de facade. Devis gratuit sous 24h.",
+      "Entreprise de peinture professionnelle à Lyon et dans le Rhône. Peinture intérieure, extérieure, ravalement de façade. Devis gratuit sous 24h.",
     images: [
       {
         url: "/og-image.jpg",
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "RHONEA Peinture | Peintre professionnel a Lyon",
+    title: "RHONEA Peinture | Peintre professionnel à Lyon",
     description:
-      "Entreprise de peinture professionnelle a Lyon et dans le Rhone. Devis gratuit sous 24h.",
+      "Entreprise de peinture professionnelle à Lyon et dans le Rhône. Devis gratuit sous 24h.",
     images: ["/og-image.jpg"],
   },
   robots: {

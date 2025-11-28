@@ -79,9 +79,9 @@ export default function CookieBanner() {
                       Nous utilisons des cookies
                     </h3>
                     <p className="text-neutral-600 font-body text-sm mb-4">
-                      Nous utilisons des cookies pour ameliorer votre experience sur notre site,
+                      Nous utilisons des cookies pour améliorer votre expérience sur notre site,
                       analyser notre trafic et personnaliser notre contenu. En cliquant sur
-                      &quot;Accepter&quot;, vous consentez a l&apos;utilisation de tous les cookies.
+                      &quot;Accepter&quot;, vous consentez à l&apos;utilisation de tous les cookies.
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <button
@@ -127,7 +127,7 @@ export default function CookieBanner() {
                   <div className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg">
                     <div>
                       <h4 className="font-body font-semibold text-neutral-900">
-                        Cookies necessaires
+                        Cookies nécessaires
                       </h4>
                       <p className="text-sm text-neutral-500">
                         Essentiels au fonctionnement du site
@@ -145,7 +145,7 @@ export default function CookieBanner() {
                         Cookies analytiques
                       </h4>
                       <p className="text-sm text-neutral-500">
-                        Nous aident a comprendre comment vous utilisez le site
+                        Nous aident à comprendre comment vous utilisez le site
                       </p>
                     </div>
                     <button
@@ -165,7 +165,7 @@ export default function CookieBanner() {
                         Cookies marketing
                       </h4>
                       <p className="text-sm text-neutral-500">
-                        Utilises pour la publicite ciblee
+                        Utilisés pour la publicité ciblée
                       </p>
                     </div>
                     <button
@@ -184,7 +184,7 @@ export default function CookieBanner() {
                     onClick={handleSaveCustom}
                     className="bg-secondary hover:bg-secondary-dark text-white font-body font-semibold px-6 py-2.5 rounded-lg transition-colors"
                   >
-                    Enregistrer mes preferences
+                    Enregistrer mes préférences
                   </button>
                   <button
                     onClick={() => setShowCustomize(false)}

@@ -28,7 +28,7 @@ export default function CTASection() {
             transition={{ duration: 0.5 }}
             className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-white mb-6"
           >
-            Pret a transformer votre interieur ?
+            Prêt à transformer votre intérieur ?
           </motion.h2>
 
           <motion.p
@@ -38,8 +38,8 @@ export default function CTASection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-body text-lg md:text-xl text-white/90 mb-10"
           >
-            Obtenez votre devis personnalise gratuitement et sans engagement.
-            Notre equipe vous recontacte sous 24h pour discuter de votre projet.
+            Obtenez votre devis personnalisé gratuitement et sans engagement.
+            Notre équipe vous recontacte sous 24h pour discuter de votre projet.
           </motion.p>
 
           <motion.div
@@ -72,7 +72,7 @@ export default function CTASection() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-body text-sm text-white/70 mt-6"
           >
-            Devis gratuit et sans engagement - Reponse sous 24h
+            Devis gratuit et sans engagement - Réponse sous 24h
           </motion.p>
         </div>
       </div>
