@@ -14,7 +14,9 @@
       "Bash(git push:*)",
       "Bash(npm run build:*)",
       "Bash(if exist .next rmdir /s /q .next)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(npx vercel --prod)",
+      "Bash(npx vercel:*)"
     ],
     "deny": [],
     "ask": []

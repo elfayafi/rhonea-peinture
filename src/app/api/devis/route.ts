@@ -114,7 +114,7 @@ export async function POST(request: NextRequest) {
         <p>En attendant, n'hesitez pas a consulter nos realisations sur notre site ou a nous contacter directement :</p>
 
         <ul>
-          <li>Tel: 06 12 34 56 78</li>
+          <li>Tel: 07 59 56 33 74</li>
           <li>Email: contact@rhonea-peinture.fr</li>
         </ul>
 

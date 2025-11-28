@@ -1,8 +1,8 @@
 export const COMPANY_INFO = {
   name: "RHONEA Peinture",
   slogan: "Votre artisan peintre de confiance dans le Rhone",
-  phone: "06 12 34 56 78",
-  phoneFormatted: "+33612345678",
+  phone: "07 59 56 33 74",
+  phoneFormatted: "+33759563374",
   email: "contact@rhonea-peinture.fr",
   address: "12 rue des Artisans",
   city: "Lyon",
