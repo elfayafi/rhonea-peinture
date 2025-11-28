@@ -7,7 +7,14 @@
       "Bash(npm run dev:*)",
       "Bash(curl:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit - Site RHONEA Peinture\n\nSite web complet pour entreprise de peinture a Lyon:\n- Next.js 14 avec App Router et TypeScript\n- Tailwind CSS avec design personnalise\n- 13 pages (Accueil, Services, Realisations, Simulateur, Devis, etc.)\n- 10 pages SEO locales pour le referencement\n- Formulaires avec React Hook Form et Zod\n- Envoi d''emails avec Resend\n- Animations avec Framer Motion\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(npm run build:*)",
+      "Bash(if exist .next rmdir /s /q .next)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

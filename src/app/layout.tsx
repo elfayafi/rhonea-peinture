@@ -16,6 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://rhonea-peinture.fr"),
   title: {
     default: "RHONEA Peinture | Peintre professionnel a Lyon et dans le Rhone",
     template: "%s | RHONEA Peinture",
